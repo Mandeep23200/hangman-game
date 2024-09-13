@@ -1,5 +1,7 @@
+
 import Button from "../Button/Button";
 import TextInput from "../Button/TextInput/TextInput";
+
 
 
 function TextInputForm({inputType ,handleFormSubmit ,handleTextInputChange ,handleShowHideClick}){
@@ -24,12 +26,15 @@ function TextInputForm({inputType ,handleFormSubmit ,handleTextInputChange ,hand
                 />
                 </div>
                 <div>
+                   
                 <Button
                 styleType="primary"
                 text ="Submit"
                 type = "submit"
+               
                 
                 />
+             
                 </div>
         </form>
     )

@@ -13,7 +13,8 @@ function TextInputFormContainer() {
       //if we have something in value thenn we navigate to the play page
       //  navigate("/play");
       setTimeout (()=>{
-        navigate("/play");
+        // navigate(`/play/${value}`);//querry params
+        navigate(`/play`,{state:{wordSelected: value}})
       },3000)
     }
   }
